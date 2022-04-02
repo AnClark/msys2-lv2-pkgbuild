@@ -4,6 +4,15 @@ Currently, Msys2 doesn't provide LV2 SDK. If you need to develop LV2 plugins und
 
 Now, this PKGBUILD will help you out. It generates a Pacman package, making LV2 SDK portable, manageable. Better than simply running `waf install`.
 
+**UPDATE:** Now (by 2022/4/2) Msys2 has official LV2 package. Simply install it by Pacman: 
+
+```
+pacman -Sy
+pacman -S mingw-w64-x86_64-lv2 
+```
+
+Thanks [Alexandros Theodotou](https://github.com/alex-tee).
+
 ## Usage
 
 1. Run Msys2 **MinGW64 shell**. 
